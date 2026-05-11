@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Attune — Q4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,700;1,14..32,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,700;1,8..60,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../design-system/css-vars.css" />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <link rel="stylesheet" href="../styles/components.css" />
+  <link rel="stylesheet" href="../styles/screens.css" />
+</head>
+
+<body>
+  <main class="app-root">
+    <div class="device-stage">
+      <div class="device-frame" data-node-id="196:1635">
+        <div class="phone-bg"></div>
+
+        <div class="atmosphere" aria-hidden="true">
+          <div class="atmosphere-orb orb-top"
+            style="background-image: radial-gradient(circle at center, rgba(111,140,255,1) 0%, rgba(111,140,255,0) 70%)">
+          </div>
+          <div class="atmosphere-orb orb-left"
+            style="background-image: radial-gradient(circle at center, rgba(241,161,154,1) 0%, rgba(241,161,154,0) 70%)">
+          </div>
+          <div class="atmosphere-orb orb-bottom"
+            style="background-image: radial-gradient(circle at center, rgba(255,212,184,1) 0%, rgba(255,212,184,0) 70%)">
+          </div>
+        </div>
+
+        <div class="status-bar" role="presentation">
+          <div class="status-row">
+            <div class="status-spacer"></div>
+            <div class="status-icons">
+              <img class="status-icon" src="../assets/icon-cellular.svg" alt="" width="20" height="13" />
+              <img class="status-icon" src="../assets/icon-wifi.svg" alt="" width="17" height="13" />
+              <img class="status-icon" src="../assets/icon-battery.svg" alt="" width="27" height="13" />
+            </div>
+          </div>
+        </div>
+
+        <div class="screen-body">
+          <div class="screen-body-inner">
+
+            <div class="progress-header">
+              <span class="type-caption-upper">Question 4 of 6</span>
+              <span class="type-caption-upper">67%</span>
+            </div>
+
+            <div class="progress-bar-wrap">
+              <div class="progress-bar">
+                <div class="progress-fill" style="right: 33%"></div>
+              </div>
+            </div>
+
+            <div class="w-full" style="display: flex; flex-direction: column; gap: 24px;">
+              <div class="w-full">
+                <div class="w-full" style="padding-bottom: 8px">
+                  <h2 class="type-heading-serif-28">
+                    How much control do you feel in stressful situations?
+                  </h2>
+                </div>
+                <p class="type-body-15">To guide what type of support you need</p>
+              </div>
+
+              <div class="interactive-slider">
+                <div class="slider-panel interactive-slider" data-likert-slider>
+                  <p class="slider-value" data-slider-value></p>
+                  <div class="slider-rail-wrap">
+                    <div class="range-slider">
+                      <div class="slider-track"></div>
+                      <div class="slider-dots">
+                        <img src="../assets/slider-dot.svg" alt="" />
+                        <img src="../assets/slider-dot.svg" alt="" />
+                        <img src="../assets/slider-dot.svg" alt="" />
+                        <img src="../assets/slider-dot.svg" alt="" />
+                        <img src="../assets/slider-dot.svg" alt="" />
+                      </div>
+                      <img class="range-slider-indicators" data-slider-image src="../assets/value-indicator-none.svg" alt="" />
+                      <input type="range" class="range-slider-input" data-slider-input min="0" max="4" step="1"
+                        value="0" aria-label="How much control do you typically feel over your stressors?" />
+                    </div>
+                  </div>
+                  <p class="type-body-15 text-center w-full slider-description" data-slider-description></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-grow"></div>
+
+            <div class="w-full" style="display: flex; flex-direction: column; gap: var(--space-12); align-items: center">
+              <div class="btn-row">
+                <a class="btn-secondary" role="button" href="q3.html">
+                  <span class="type-btn-secondary">Back</span>
+                </a>
+                <button type="button" class="btn-primary" data-next-button>
+                  <span class="type-btn-primary">Next</span>
+                </button>
+              </div>
+              <a class="skip-link w-full" role="button" href="q5.html">Skip question</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="home-indicator" aria-hidden="true"></div>
+      </div>
+    </div>
+  </main>
+  <script src="../JS/state.js"></script>
+  <script src="../JS/Screens/q4.js"></script>
+  <script src="../JS/status-bar.js"></script>
+</body>
+
+</html>

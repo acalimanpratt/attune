@@ -1,0 +1,143 @@
+/**
+ * Generated from design-system/tokens.json — Attune design tokens that were created in Figma... this was created by cursor in Plan mode.
+ ... I started with the original variables used in figma but ended up adding to them
+ */
+:root {
+  /* Colors — blues */
+  --color-blues-deep-blue: #17163c;
+  --color-blues-cloudy-blue: #475caf;
+  --color-blues-garden-blue: #c4dbff;
+  --color-blues-sky-blue: #e7f4fa;
+  --color-blues-rainy-day: #bde2ea;
+  --color-blues-rain-drops: #46638e;
+  --color-blues-grey-blue: #4C6880;
+  /* Colors — purples */
+  --color-purples-electric-waves: #6f8cff;
+  --color-purples-electric-waves-40: rgba(111, 140, 255, 0.4);
+
+  /* Neutral */
+  --color-neutral-light-grey: #fafafa;
+
+  /* Accent */
+  --color-accent-blue-72: #6f8cff;
+  --color-accent-orange-86: #ffd4b8;
+  --color-accent-pink-66: #f1a19a;
+
+  /* Surfaces */
+  --color-surface-glass-fill: rgba(232, 236, 252, 0.72);
+  --color-surface-glass-fill-strong: rgba(231, 244, 250, 0.19);
+  --color-surface-mc-fill: #e8ecfc;
+  --color-surface-progress-track: rgba(111, 140, 255, 0.3);
+
+  /* M3 (slider) */
+  --color-m3-primary: #00419b;
+  --color-m3-surface-container-low: #f7f3f2;
+  --color-m3-inverse-on-surface: #f4f0ef;
+  --color-m3-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+
+  /* Text */
+  --color-text-deep-blue-80: rgba(23, 22, 60, 0.8);
+
+  /* Typography */
+  --font-family-1: "DM Sans", system-ui, sans-serif;
+  --font-family-2: "Source Serif 4", Georgia, serif;
+  --font-family-3: Arial, Helvetica, sans-serif;
+  --font-family-status: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-14: 14px;
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-17: 17px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-slider-value: 27.919px;
+
+  --line-height-tight: 1;
+  --line-height-body-15: 22.5px;
+  --line-height-heading-28: 36.4px;
+  --line-height-heading-32: 41.6px;
+  --line-height-slider-value: 34.899px;
+
+  --letter-spacing-label-upper: 0.5px;
+  --letter-spacing-slider-value: 0.8725px;
+
+  /* Radius */
+  --radius-2: 2px;
+  --radius-3: 3px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-14: 14px;
+  --radius-16: 16px;
+  --radius-40: 40px;
+  --radius-48: 48px;
+  --radius-60: 60px;
+  --radius-80: 80px;
+  --radius-pill: 100px;
+
+  /* Spacing... Im not even sure I used all these variable lol */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-17: 17px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-70: 70px;
+  --space-80: 80px;
+  --space-87: 87px;
+  --space-90: 90px;
+  --space-95: 95px;
+  --space-96: 96px;
+  --space-100: 100px;
+  --space-104: 104px;
+  --space-108: 108px;
+  --space-112: 112px;
+
+  /* Stroke */
+  --stroke-1: 1px;
+  --stroke-2: 2px;
+  --stroke-chip: 0.5px;
+
+  /* Opacity */
+  --opacity-30: 0.3;
+  --opacity-40: 0.4;
+
+  /* Shadows */
+  --shadow-device: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --shadow-btn-primary: 0 10px 30px -5px rgba(111, 140, 255, 0.3);
+  --shadow-mc-base: 0 4px 4px 0 rgba(196, 219, 255, 0.25);
+  --shadow-mc-face: 0 4px 6.2px 0 rgba(196, 219, 255, 0.25);
+  --shadow-chip-pressed: 0 4px 15px 0 rgba(253, 161, 101, 0.2);
+  --shadow-chip-pressed-inner: 0 4px 15px -3px rgba(111, 140, 255, 0.3);
+  --shadow-slider-ranking: 0 1.745px 17.45px 0 rgba(0, 0, 0, 0.1);
+
+  /* Blur */
+  --blur-atmosphere: 40px;
+  --blur-glass: 10px;
+  --blur-glass-soft: 5px;
+  --blur-chip: 10.15px;
+
+  /* Layout */
+  --status-bar-height: 50px;
+  --content-padding-x: 24px;
+  --mc-btn-w: 326px;
+  --mc-btn-h: 76px;
+  --mc-inner-w: 313px;
+  --mc-inner-h: 64px;
+  --mc-offset: 7px;
+
+  /* Text shadow (MC / chips) */
+  --text-shadow-warm: 0 4px 7px rgba(255, 212, 184, 0.4);
+}

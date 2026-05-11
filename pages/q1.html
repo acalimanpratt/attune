@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Attune — Q1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,700;1,14..32,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,700;1,8..60,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../design-system/css-vars.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/screens.css" />
+  </head>
+  <body>
+    <main class="app-root">
+      <div class="device-stage">
+        <div class="device-frame" data-node-id="190:257">
+          <div class="phone-bg"></div>
+
+          <div class="atmosphere" aria-hidden="true">
+            <div
+              class="atmosphere-orb orb-top"
+              style="background-image: radial-gradient(circle at center, rgba(111,140,255,1) 0%, rgba(111,140,255,0) 70%)"
+            ></div>
+            <div
+              class="atmosphere-orb orb-left"
+              style="background-image: radial-gradient(circle at center, rgba(241,161,154,1) 0%, rgba(241,161,154,0) 70%)"
+            ></div>
+            <div
+              class="atmosphere-orb orb-bottom"
+              style="background-image: radial-gradient(circle at center, rgba(255,212,184,1) 0%, rgba(255,212,184,0) 70%)"
+            ></div>
+          </div>
+
+          <div class="status-bar" role="presentation">
+            <div class="status-row">
+              <div class="status-spacer"></div>
+              <div class="status-icons">
+                <img class="status-icon" src="../assets/icon-cellular.svg" alt="" width="20" height="13" />
+                <img class="status-icon" src="../assets/icon-wifi.svg" alt="" width="17" height="13" />
+                <img class="status-icon" src="../assets/icon-battery.svg" alt="" width="27" height="13" />
+              </div>
+            </div>
+          </div>
+
+          <div class="screen-body">
+            <div class="screen-body-inner">
+              <div class="progress-header">
+                <span class="type-caption-upper">Question 1 of 6</span>
+                <span class="type-caption-upper">17%</span>
+              </div>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="right: 83%"></div>
+                </div>
+              </div>
+
+              <div
+                class="w-full"
+                style="display: flex; flex-direction: column; gap: 24px; align-items: center"
+              >
+                <div class="w-full">
+                  <div class="w-full" style="padding-bottom: 8px">
+                    <h2 class="type-heading-serif-28">What would you like help with first?</h2>
+                  </div>
+                  <p class="type-body-15">So we can focus on what you need most</p>
+                </div>
+
+                <div class="mc-stack">
+                  <button type="button" class="mc-btn">
+                    <div class="mc-shadow"></div>
+                    <div class="mc-face">
+                      <span class="mc-label">Get through my problems</span>
+                    </div>
+                  </button>
+
+                  <button type="button" class="mc-btn">
+                    <div class="mc-shadow"></div>
+                    <div class="mc-face">
+                      <span class="mc-label">Build better habits</span>
+                    </div>
+                  </button>
+
+                  <button type="button" class="mc-btn">
+                    <div class="mc-shadow"></div>
+                    <div class="mc-face">
+                      <span class="mc-label">Understand my feelings</span>
+                    </div>
+                  </button>
+
+                  <button type="button" class="mc-btn">
+                    <div class="mc-shadow"></div>
+                    <div class="mc-face">
+                      <span class="mc-label">Other</span>
+                    </div>
+                  </button>
+
+                  <div class="inline-other-field" aria-hidden="true">
+                    <div class="other-field-box">
+                      <input
+                        class="inline-other-input"
+                        type="text"
+                        placeholder="Type your answer"
+                        autocomplete="off"
+                        maxlength="48"
+                      />
+                      <button type="button" class="inline-other-add" disabled>Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-grow"></div>
+
+              <div
+                class="w-full"
+                style="display: flex; flex-direction: column; gap: var(--space-12); align-items: center"
+              >
+                <div class="btn-row">
+                  <a class="btn-secondary" role="button" href="welcome.html">
+                    <span class="type-btn-secondary">Back</span>
+                  </a>
+                  <button
+                  type="button"
+                  class="btn-primary garden-button"
+                  data-next-button
+                  disabled
+                >
+                  <span class="type-btn-primary">Next</span>
+                </button>
+                </div>
+                <a class="skip-link w-full" role="button" href="q2.html">Skip question</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-indicator" aria-hidden="true"></div>
+        </div>
+      </div>
+    </main>
+    <script src="../JS/state.js"></script>
+    <script src="../JS/Screens/q1.js"></script>
+    <script src="../JS/status-bar.js"></script>
+  </body>
+</html>
